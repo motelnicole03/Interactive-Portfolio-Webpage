@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive Portfolio Webpage">
+  <link rel="stylesheet" href="styles.css">
+  <title>Interactive Portfolio</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <ul class="navbar">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+        <li><a href="#sdg">My SDG Focus</a></li>
+        <li><a href="#contact">Contact Info</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-content">
+
+      <button onclick="goToAbout()">Let's Get Started</button>
+    </div>
+  </section>
+<!-- About Me Section -->
+<section id="about">
+    <div class="container about-section">
+      <img src="./img/profile.jpg" alt="Profile picture of Nicole V. Motel" class="profile-pic" loading="lazy">
+      <div class="about-text">
+        <h1>About Me</h1>
+        <h3>Name: Nicole Villena Motel</h3> 
+        <h3>Age: 18 years old</h3>
+        <h3>Date of Birth: June 3, 2006</h3>
+        <h3>Address: Purok 1, Bilogo Batangas City</h3>
+        <h3>Phone Number: 09952709942</h3>
+        <h3>Descripton: </h3>
+        <p>
+          A dedicated first-year college student with a strong work ethic. 
+          I'm actively working towards my degree in Information Technology at Batangas State University The National Engineering University.
+          I've become increasingly captivated by the world of web development and design.
+          This growing interest has intensified my ambition to embark on a career as a programmer.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+    <h1>My Skills</h1>
+    <p>Here are some of my skills I work in, categorized as Soft Skills and Hard Skills:</p>
+    
+    <div class="skills-wrapper">
+      <!-- Soft Skills -->
+      <div class="soft-skills">
+        <h2>Soft Skills</h2>
+        <ul>
+          <li>Flexible</li>
+          <li>Creative</li>
+          <li>Responsible</li>
+          <li>Active Listener</li>
+          <li>Good Communicator</li>
+        </ul>
+      </div>
+      
+      <!-- Hard Skills -->
+      <div class="hard-skills">
+        <h2>Hard Skills</h2>
+        <ul>
+          <li>Video Editor</li>
+          <li>Photography</li>
+          <li>Computer Literacy</li>
+          <li>Webpage Designer</li>
+          <li>Basic Programming</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <h1>My Projects</h1>
+    <p>Here are some projects I’ve worked on that demonstrate my skills and creativity:</p>
+
+    <h3>Training and Achievements</h3>
+    <!-- Project Images Section -->
+    <div class="project-gallery">
+      <div class="project-item">
+        <img src="./img/proj2.jpg" alt="Project 1 Screenshot">
+        <p>Basic Fire Fighting Seminar and Training</p>
+      </div>
+      <div class="project-item">
+        <img src="./img/proj3.jpg" alt="Project 3 Screenshot">
+        <p>Linggo ng Kabataan 2024 Photography Contestant 3rd placer</p>
+      </div>
+      <div class="project-item">
+        <img src="./img/proj1.jpg" alt="Project 2 Screenshot">
+        <p>Batangas City Environmental Law Inforcer Poster-Making Contestant</p>
+      </div>
+      
+    </div>
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>This present all of my works and projects that related to Information Technology.</p>
+      <a href="https://github.com/motelnicole03" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- SDG Feature Section -->
+<section id="sdg">
+  <div class="container">
+    <h1>My SDG Focus</h1>
+    <p>
+      I align my work with the UN’s Sustainable Development Goal 4:
+      <strong>Quality Education</strong>. 
+      My goal is to promote quality education to ensure that all children have access to free and equal opportunities for learning. It focuses on providing skills and knowledge that help individuals succeed in life and contribute to society.
+    </p>
+    <div class="sdg-image">
+      <img src="./img/qe1.jpg" alt="SDG 9 Image">
+    </div>
+    <div class="flex-container">
+      <div class="sdg-content">
+        <p>
+          Quality education is for everyone, making sure all students can learn and grow. It helps them gain knowledge, skills, and abilities that support personal growth and help them take part in society. Quality education focuses on not just school subjects but also life skills, problem-solving, and creativity.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Educational Video Section -->
+<section id="educational-videos">
+  <div class="container">
+    <h1>Educational Video for Quality Education</h1>
+    <p>These educational videos highlight the importance of quality education and its impact on society.</p>
+
+    <!-- Video Clips Section -->
+    <div class="video-gallery">
+      <div class="video-item">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/vdMPP47nLhc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="video-item">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/MeKUW8w9frg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="video-item">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Un5msddQl6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h1>Contact Info</h1>
+      <p>Feel free to reach out to me for collaboration or inquiries!</p>
+      <p>Email: 24-02494@g.batstate-u.edu.ph</p>
+      <p>Facebook: <a href="https://www.facebook.com/nicole.villena.5855" target="_blank"> Nicole Villena-Motel </a></p>
+      <p>GitHub: <a href="https://github.com/motelnicole03" target="_blank">nicolemotel03 </a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Interactive Portfolio Webpage for Quality Education NM. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function goToAbout() {
+      document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
